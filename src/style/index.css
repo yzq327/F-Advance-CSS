@@ -67,7 +67,6 @@ ul {
 }
 
 .content-section {
-  border: 1px solid black;
   margin: 0px 25px;
 }
 .content-artical {
@@ -78,16 +77,25 @@ ul {
   width: 42%;
 }
 .thumbnail-img {
+  width: 100%;
 }
 .thumbnail-info {
+  margin: 10px;
 }
 .thumbnail-title {
+  margin: 10px 0;
 }
 .thumbnail-message {
+  font-size: 13px;
+  margin-bottom: 10px;
 }
 .thumbnail-details {
+  color: #6eb1fe;
+  font-size: 12px;
+  font-weight: bold;
 }
 .detail-icon {
+  font-size: 10px;
 }
 
 .right-section {
