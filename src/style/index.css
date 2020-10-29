@@ -36,7 +36,6 @@ ul {
 }
 
 .main {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin: 20px 30px 30px 30px;
@@ -69,9 +68,28 @@ ul {
 
 .content-section {
   border: 1px solid black;
+  margin: 0px 25px;
 }
 .content-artical {
 }
+.about-thumbnail {
+  border: 1px solid #ededed;
+  /* box-shadow: 2px 3px 50px #EDEDED; */
+  width: 42%;
+}
+.thumbnail-img {
+}
+.thumbnail-info {
+}
+.thumbnail-title {
+}
+.thumbnail-message {
+}
+.thumbnail-details {
+}
+.detail-icon {
+}
+
 .right-section {
 }
 .login-in {
