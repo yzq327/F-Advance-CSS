@@ -1,5 +1,7 @@
 body,
-html {
+html,
+p,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -17,4 +19,82 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  background-color: #262626;
+  color: #a6aeb5;
+  align-items: center;
+  font-size: 14px;
+}
+.header-title {
+  padding: 12px 50px;
+}
+.category-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 30px 30px;
+}
+.left-section {
+  width: 14%;
+}
+.about {
+  background-color: #f8f9fa;
+  padding-left: 15px;
+}
+.about-title {
+  padding: 30px 0 10px;
+  font-style: italic;
+}
+.about-content {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 10px 35px 0px;
+}
+.achives {
+  margin-left: 20px;
+}
+.achives-content {
+  font-size: 16px;
+  color: #855eab;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.content-section {
+  border: 1px solid black;
+}
+.content-artical {
+}
+.right-section {
+}
+.login-in {
+}
+
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer-message {
+  color: #cbcbcb;
+  padding-top: 15px;
+}
+.creater {
+  color: #855eab;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.back-to {
+  color: #855eab;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  text-decoration: underline;
 }
