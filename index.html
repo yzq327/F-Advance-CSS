@@ -25,13 +25,14 @@
       </ul>
     </nav>
   </header>
+
   <main class="main">
-    <section class="left-section">
-      <div class="about">
+    <aside class="left-section">
+      <section class="about">
         <h2 class="about-title"> About</h2>
         <p class="about-content">I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</p>
-      </div>
-      <div class="achives">
+      </section>
+      <section class="achives">
         <h2 class="about-title"> Archives</h2>
         <div class="achives-content">
           <p>January 2020</p>
@@ -44,56 +45,71 @@
           <p>August 2020</p>
           <p>Septemper 2020</p>
           <p>October 2020</p>
-          <p>October 2020</p>
         </div>     
-      </div>
-    </section>
-    
-    <section class="content-section">
-      <div class="content-artical">
-        <figure class="about-thumbnail">
-          <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
-          <figcaption class="thumbnail-info">
-            <h3 class="thumbnail-title">Artical 1</h3>
-            <p class="thumbnail-message">Five score years ago, a
-              great American, in who symbolic shadow we stand today, signed the Emancipation Proclamation. </p>
-            <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="content-artical">
-        <figure class="about-thumbnail">
-          <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
-          <figcaption class="thumbnail-info">
-            <h3 class="thumbnail-title">Artical 2</h3>
-            <p class="thumbnail-message">
-              But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity.
-              But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. And so, we've come to cash this check, a check that will give us upon demand the riches of freedom and the security of justice.
-            </p>
-            <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="content-artical">
-        <figure class="about-thumbnail">
-          <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
-          <figcaption class="thumbnail-info">
-            <h3 class="thumbnail-title">Artical 3</h3>
-            <p class="thumbnail-message">
-              This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.
-              We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. 
-            </p>
-            <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-    <section class="right-section">
-      <div class="login-in">
-        login in
-      </div>
-    </section>
+      </section>
+    </aside> 
+
+    <content class="main-content">
+      <section class="content-section">
+        <div class="content-artical">
+          <figure class="about-thumbnail">
+            <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
+            <figcaption class="thumbnail-info">
+              <h3 class="thumbnail-title">Artical 1</h3>
+              <p class="thumbnail-message">Five score years ago, a
+                great American, in who symbolic shadow we stand today, signed the Emancipation Proclamation. </p>
+              <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="content-artical">
+          <figure class="about-thumbnail">
+            <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
+            <figcaption class="thumbnail-info">
+              <h3 class="thumbnail-title">Artical 3</h3>
+              <p class="thumbnail-message">
+                This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.
+                We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. 
+              </p>
+              <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
+            </figcaption>
+          </figure>
+        </div>
+      </section> 
+
+      <section class="content-section">
+        <div class="content-artical2">
+          <figure class="about-thumbnail">
+            <img class="thumbnail-img" src="./src/assets/Thumbnail.png" alt="Thumbnail">
+            <figcaption class="thumbnail-info">
+              <h3 class="thumbnail-title">Artical 2</h3>
+              <p class="thumbnail-message">
+                But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity.
+                But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. And so, we've come to cash this check, a check that will give us upon demand the riches of freedom and the security of justice.
+              </p>
+              <p class="thumbnail-details"> View details <span class="detail-icon">>></span></p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>  
+    </content>
+
+    <aside class="right-section">
+        <form class='sign-in'>   
+          <input type='text' name='email' class="input-message"
+            placeholder="Email address"/>   
+          <input type='text' name='password' class="input-message"
+            placeholder="password"/>  
+          <div class="checkbox-line">
+            <input type='checkbox' class='checkbox'>  
+            <span class="checkboc-message">Remember me</span>
+          </div>
+          <input type='submit' class='submit' 
+            value='Sign in' >                                       
+        </form> 
+    </aside>
   </main>
+
   <footer class="footer">
       <p class="footer-message" >Advanced CSS homework built by <span class="creater">@Your Name</span></p>
       <p class="back-to">Back to top</p>
